@@ -1,0 +1,10 @@
+.parent :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.child {
+  float: left;
+  width: 49%;
+  margin: 4px;
+}
