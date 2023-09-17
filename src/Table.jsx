@@ -146,11 +146,11 @@ function Table() {
 
       <div className="parent">
         <div className="child">
-          <h3>Min power : </h3> <div>{minPower}</div>
+          <h3>Min power : </h3> {minPower}
         </div>
 
         <div className="child">
-          <h3>Max power :</h3> <div>{maxPower}</div>
+          <h3>Max power :</h3> {maxPower}
         </div>
       </div>
       <div style={{ height: 700, width: "80%" }}>
